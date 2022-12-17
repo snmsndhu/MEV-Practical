@@ -1,4 +1,4 @@
-require("@nomiclabs/hardhat-waffle");
+require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config({ path: ".env" });
 
 const QUICKNODE_RPC_URL = process.env.QUICKNODE_RPC_URL;
